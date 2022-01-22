@@ -646,7 +646,7 @@ int main()
                 //Pixel intenisty values for each pixel gets stored in the array		
                 intensity_value[i*8] = pixel_intensity;
         }
-        //Storing the pixel intensity values in the fil
+        //Storing the pixel intensity values in the file
         for(int i = 0; i < (int)pixels; i++)
         {
             fprintf(fp_intensity,"%lf\n", intensity_value[i*8]);
@@ -662,8 +662,6 @@ int main()
         
         final_total_time += time_taken;
 
-        cout<<"Static Scheduling Chunk Size : "<<x_static<<"\n"<<"Total Parallel Time : "<<final_total_time<<" Pixels : "<<(int)sqrt(pixels)<<"\n";
-
-        fprintf(fp_static,"%d %lf \n",(int)x_static, final_total_time);
+        cout<<"Static Scheduling Chunk Size : "<<x_static<<"\n"<<"Total Parallel Time for Algorithm II : "<<final_total_time<<" Pixels : "<<(int)sqrt(pixels)<<"\n";
     }
 }
