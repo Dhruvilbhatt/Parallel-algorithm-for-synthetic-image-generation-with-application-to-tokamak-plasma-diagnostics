@@ -351,10 +351,6 @@ int main()
 	//Clock timers for marking the start and end of the code
 	struct timespec start, end;
 
-    FILE *fp_static;
-
-    fp_static = fopen("time_dynamic.txt", "a+");
-
     int pixel_array[7] = {1024, 4096, 16384, 65536, 262144, 1048576, 4194304};
 
     for(int x_static = 13; x_static <= 13; x_static++)
