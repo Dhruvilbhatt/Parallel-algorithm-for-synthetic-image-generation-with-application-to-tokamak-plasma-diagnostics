@@ -3,4 +3,4 @@
 The tomographic reconstruction is a powerful diagnostic tool in nuclear fusion experiments for the determination of the shape and position of the plasma. However, neural networks are emerging as a suitable alternative to conventional plasma tomography
 algorithms. In order to train such AI/ML based models, we need large-scale, diver-
 sified image data for learning and evaluation which is difficult to obtain from real
-experiments.
+experiments. The proposed parallel algorithm can be used to obtain the synthetic images within a few seconds which is very important for real time applications.
