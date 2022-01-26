@@ -5,7 +5,7 @@ intensity_data = [] # Array to store the intensity data of each pixel
 
 dimnension = 0 # Dimension of the image
 
-with open('pixel_intensity_txt.txt') as f: 
+with open('pixels_intensity_txt.txt') as f: 
     for line in f:
         intensity_data.append(float(line))
 
